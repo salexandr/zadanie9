@@ -1,0 +1,38 @@
+﻿header, nav, section, article, aside, footer {
+   display:block;
+}
+
+@font-face {
+    font-family: 'Open Sanse';
+    src: url(../fonts/open-sanse.eot);
+}
+
+@font-face {
+    font-family: 'League Gothic';
+    src: url(../fonts/league-gothic.eot);
+}
+
+.menu {
+	font-family: 'League Gothic';
+    font-size: 4px;
+}
+
+.menu__item {
+	font-size: 23px;
+	display: inline-block;
+    padding-left: 10px;
+}
+
+.aside__description {
+    margin: 20px 5px;
+}
+
+aside {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#745082', endColorstr='#33253a', GradientType=0);
+	background-color: #745082;
+}
+
+.comments__description h3 {
+    font-family: 'League Gothic', Arial;
+    font-size: 30px;
+}
