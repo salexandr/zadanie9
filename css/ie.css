@@ -3,28 +3,54 @@
 }
 
 @font-face {
-    font-family: 'Open Sanse';
-    src: url(../fonts/open-sanse.eot);
+    font-family: "OpenSansLight";
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+    url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
 @font-face {
-    font-family: 'League Gothic';
-    src: url(../fonts/league-gothic.eot);
+    font-family: "LeagueGothicRegular";
+    src: url("../fonts/LeagueGothicRegular/LeagueGothicRegular.eot");
+    src: url("../fonts/LeagueGothicRegular/LeagueGothicRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LeagueGothicRegular/LeagueGothicRegular.woff") format("woff"),
+    url("../fonts/LeagueGothicRegular/LeagueGothicRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
 .menu {
-	font-family: 'League Gothic';
-    font-size: 4px;
+	font-family: "LeagueGothicRegular";
+    font-size: 24px;
 }
 
 .menu__item {
 	font-size: 23px;
 	display: inline-block;
-    padding-left: 10px;
+	padding-left: 50px;
 }
 
-.aside__description {
-    margin: 20px 5px;
+.menu-footer .menu__item {
+	font-family: "LeagueGothicRegular";
+    font-size: 20px;
+}
+
+.slider h2{
+    font-family: "LeagueGothicRegular";
+    font-size: 58px;
+}
+
+.slider h3{
+    font-family: "LeagueGothicRegular";
+    font-size: 32px;
+}
+
+.slider p {
+    font-family: "OpenSansLight";
+    font-size: 18px;
 }
 
 aside {
@@ -32,7 +58,39 @@ aside {
 	background-color: #745082;
 }
 
+
+.aside__description {
+    margin: 40px 10px;
+	    width: 29%;	
+}
+
+.aside__description h4 {
+    font-family: "LeagueGothicRegular";
+    font-size: 26px;
+}
+
+.aside__description p {
+    font-family: "OpenSansLight";
+    font-size: 16px;
+}
+
+.dialog__content h4 {
+    font-family: "LeagueGothicRegular";
+    font-size: 30px;	
+}
+
+.dialog__content h4 span{
+    font-family: "LeagueGothicRegular";
+	font-size: 30px;
+}
+
+.dialog__content p {
+    font-family: "OpenSansLight";
+    font-size: 16px;
+}
+
 .comments__description h3 {
-    font-family: 'League Gothic', Arial;
+    font-family: "LeagueGothicRegular";
     font-size: 30px;
 }
+
